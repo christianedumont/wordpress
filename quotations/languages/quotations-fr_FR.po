@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quotations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 13:28+0000\n"
+"PO-Revision-Date: 2023-12-15 13:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: quotations"
+
+# Menu label
+msgid "Add"
+msgstr "Ajouter"
+
+#: admin/views/quotations-list-view.php:4
+msgid "Add new"
+msgstr "Ajouter"
+
+#. Field name Author
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/views/quotations-form-view.php:4
+msgid "Back to list"
+msgstr "Retour à a liste"
+
+#. Author of the plugin
+msgid "Christiane Dumont"
+msgstr "Christiane Dumont"
+
+#. Field name Content
+msgid "Content"
+msgstr "Contenu"
+
+# Delete link
+msgid "Delete"
+msgstr "Supprimer"
+
+#. Description of the plugin
+msgid "Displays quotations randomly in WordPress admin notice"
+msgstr "Affiche des citations de manière aléatoire dans la zone de notification de WordPress"
+
+# Edit link
+msgid "Edit"
+msgstr "Modifier"
+
+# Titel
+msgid "Edit quotation"
+msgstr "Modifier une citation"
+
+# Insert error message
+msgid "Error while inserting quotation"
+msgstr "Erreur lors de l'insertion de la citation"
+
+# Update error message
+msgid "Error while updating quotation"
+msgstr "Erreur lors de la mise à jour de la citation"
+
+#. Author URI of the plugin
+msgid "https://www.consultantweb.eu"
+msgstr "https://www.consultantweb.eu"
+
+# Menu label
+msgid "List"
+msgstr "Liste"
+
+# Error message
+msgid "Please fill in all the required fields"
+msgstr "Veuillez remplir tous les champs requis"
+
+#. Singular
+msgid "Quotation"
+msgstr "Citation"
+
+# Update successfull
+msgid "Quotation %s has been successfully updated"
+msgstr "La citation %s a été mise à jour"
+
+# Insert successfull
+msgid "Quotation %s was successfully saved"
+msgstr "La citation %s a été ajoutée"
+
+# Not found message
+msgid "Quotation not found"
+msgstr "Citation non trouvée"
+
+#. Name of the plugin
+msgid "Quotations"
+msgstr "Citations"
+
+# Admin title
+msgid "Quotations administration"
+msgstr "Administration des citations"
+
+# Button
+msgid "Send"
+msgstr "Envoyer"

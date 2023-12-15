@@ -1,0 +1,105 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quotations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 13:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: quotations"
+
+#: admin/views/quotations-list-view.php:4
+msgid "Add new"
+msgstr ""
+
+#: admin/views/quotations-form-view.php:4
+msgid "Back to list"
+msgstr ""
+
+#. Author of the plugin
+msgid "Christiane Dumont"
+msgstr ""
+
+#. Description of the plugin
+msgid "Displays quotations randomly in WordPress admin notice"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.consultantweb.eu"
+msgstr ""
+
+#. Name of the plugin
+msgid "Quotations"
+msgstr ""
+
+#. Singular
+msgid "Quotation"
+msgstr ""
+
+#. Field name Content
+msgid "Content"
+msgstr ""
+
+#. Field name Author
+msgid "Author"
+msgstr ""
+
+# Menu label
+msgid "List"
+msgstr ""
+
+# Menu label
+msgid "Add"
+msgstr ""
+
+# Edit link
+msgid "Edit"
+msgstr ""
+
+# Delete link
+msgid "Delete"
+msgstr ""
+
+# Button
+msgid "Send"
+msgstr ""
+
+# Titel
+msgid "Edit quotation"
+msgstr ""
+
+# Admin title
+msgid "Quotations administration"
+msgstr ""
+
+# Error message
+msgid "Please fill in all the required fields"
+msgstr ""
+
+# Insert successfull
+msgid "Quotation %s was successfully saved"
+msgstr ""
+
+# Insert error message
+msgid "Error while inserting quotation"
+msgstr ""
+
+# Update successfull 
+msgid "Quotation %s has been successfully updated"
+msgstr ""
+
+# Update error message
+msgid "Error while updating quotation"
+msgstr ""
+
+# Not found message
+msgid "Quotation not found"
+msgstr ""
