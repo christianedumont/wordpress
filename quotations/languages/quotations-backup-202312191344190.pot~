@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quotations\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 14:11+0000\n"
+"POT-Creation-Date: 2023-12-19 13:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -85,7 +85,7 @@ msgid "Please fill in all the required fields"
 msgstr ""
 
 # Insert successfull
-msgid "Quotation %d was successfully saved"
+msgid "Quotation %s was successfully saved"
 msgstr ""
 
 # Insert error message
@@ -93,7 +93,7 @@ msgid "Error while inserting quotation"
 msgstr ""
 
 # Update successfull
-msgid "Quotation %d has been successfully updated"
+msgid "Quotation %s has been successfully updated"
 msgstr ""
 
 # Update error message
@@ -104,8 +104,10 @@ msgstr ""
 msgid "Quotation not found"
 msgstr ""
 
+msgctxt "Contenu de la citation"
 msgid "Enter your content"
 msgstr ""
 
+msgctxt "Auteur de la citation"
 msgid "Enter the author"
 msgstr ""

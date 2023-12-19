@@ -18,7 +18,7 @@
 		</div>
 		<div class="form-row">
 			<label for="author"> <?php _e('Author', 'quotations')?> (*)</label>
-			<input type="text" name="author" id="author" value="<?php echo esc_attr($item['author'])?>" maxlength="50" placeholder="Enter the author">
+			<input type="text" name="author" id="author" value="<?php echo esc_attr($item['author'])?>" maxlength="50" placeholder="<?php _e('Enter the author', 'quotations')?>" aria-required="true" required>
 		</div>
 		<div class="form-row">
 			<button class="button button-primary" type="submit" name="btn-submit" value="Send"><?php _e('Send', 'quotations')?></button>
