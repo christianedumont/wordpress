@@ -28,11 +28,10 @@ function quotations_activate() {
 	$charset_collate = $wpdb->get_charset_collate();
 	$tableName = $wpdb->prefix . 'quotations';
 	$sql = "CREATE TABLE IF NOT EXISTS $tableName (
-		id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+		id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 		content VARCHAR(255) NOT NULL, 
 		author VARCHAR(50) NOT NULL,
-		creationDate datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-		PRIMARY_KEY (id)
+		creationDate datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 		) $charset_collate;";
 	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 	dbDelta( $sql );
