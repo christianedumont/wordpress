@@ -32,7 +32,6 @@ if (wp_verify_nonce($_REQUEST['tokenonce'], $validToken)) {
 			$result = $wpdb->insert($table_name, $item);
 			if ($result) {
 				$item['id'] = $wpdb->insert_id;
-				//$message = __('Quotation ' . $item['id'] . ' was successfully saved', 'quotations');
 				$message = sprintf(__('Quotation %d was successfully saved', 'quotations'), $item['id']);
 				$item = $default;
 			}
@@ -45,7 +44,6 @@ if (wp_verify_nonce($_REQUEST['tokenonce'], $validToken)) {
 			$result = $wpdb->update($table_name, $item, array('id' => $item['id']));
 			if ($result) {
 				$message = sprintf(__('Quotation %d has been successfully updated', 'quotations'), $item['id']);
-				//$message = sprintf( esc_html__( 'Quotation %d has been successfully updated', 'quotations' ), $item['id'] );
 			} else {
 				$error = __('Error while updating quotation', 'quotations');
 			}
